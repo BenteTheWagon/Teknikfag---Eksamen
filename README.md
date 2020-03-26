@@ -1,0 +1,2 @@
+# Teknikfag---Eksamen
+Rougue like
