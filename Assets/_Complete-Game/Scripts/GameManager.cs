@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance = null;
-
     public BoardManager boardScript;
 
     private int level = 3;
@@ -21,7 +20,6 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
 
         DontDestroyOnLoad(gameObject);
-
         boardScript = GetComponent<BoardManager>();
         InitGame();
     }
